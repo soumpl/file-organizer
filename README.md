@@ -4,6 +4,6 @@ This program is created to clean up a messy folder with files having all kinds o
 
 Usage
 
-For organizing:   python3 auto_organizer.py
+For organizing:   python3 organizer.py
 
-For unorganizng (i.e. undo the last organize command):  python3 auto_organizer.py -u 
+For unorganizng (i.e. undo the last organize command):  python3 organizer.py -u 
