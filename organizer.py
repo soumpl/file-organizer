@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 
 """
-This program organizes files in a folder according to their extension name into a new created folder
+This program organizes files in a folder according to their extension name into a new created folder.
+The new folder is named 'Auto-Organized' followed by date and time at that instance.
 
 Usage :-
-For organizing:   python3 auto_organizer.py
-For unorganizng (i.e. undo the last organize command):  python3 auto_organizer.py -u 
+For organizing:   python3 organizer.py
+For unorganizng (i.e. undo the last organize command):  python3 organizer.py -u 
 
 
 """
