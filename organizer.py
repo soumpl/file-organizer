@@ -3,7 +3,7 @@
 """
 This program organizes files in a folder according to their extension name into a new created folder.
 The new folder is named 'Auto-Organized' followed by date and time at that instance.
-
+Example name of folder after organizing : Auto-Organized-2024-01-30 09:23:57
 Usage :-
 For organizing:   python3 organizer.py
 For unorganizng (i.e. undo the last organize command):  python3 organizer.py -u 
@@ -16,6 +16,7 @@ from datetime import datetime
 import sys
 
 #------------------------------------------------------
+"""
 def deco_while_function(f):
 	def wrapper():
 		while 1:
@@ -40,7 +41,8 @@ def organize():
 		print("Calm down")
 #---------------------------------------------------
 
-# For now only the funciton below works for organizing things, the above functionalties to be completed"
+# For now only the funciton below works for organizing things, the above functionalties to be completed in future"
+"""
 
 def organize_all(script_name):
 	p = Path()
